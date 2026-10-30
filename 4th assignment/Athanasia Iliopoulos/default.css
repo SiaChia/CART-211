@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: #bed4fa;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,6 +7,7 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.2em;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -55,4 +56,48 @@ h3 {
 footer {
     margin-top: 50px;
     text-align: right;
+}
+
+@media (max-width: 480px) {
+    nav {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 100%;
+        padding: 20px 10px;
+        line-height: 30px;
+        position: relative;
+        display: flex;
+        float: none;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        border-bottom: 4px solid #39577b;
+        background: #39577b;
+        z-index: 1000;
+        color: white;
+    }
+
+    nav a {
+        color: white;
+
+    }
+
+    .wrapper {
+        margin-top: 500px;
+        position: relative;
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+        line-height: 150%;
+    }
+
+    .book {
+        grid-template-columns: auto auto;
+        gap: 16px;
+
+        .book figcaption {
+            grid-template-columns: auto auto;
+            font-size: smaller;
+        }
+    }
 }
