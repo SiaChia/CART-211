@@ -88,3 +88,12 @@ h2 {
     margin-top: 0;
     margin-bottom: 20;
 }
+
+.icon-wrapper {
+    font-size: 25px;
+
+}
+
+.icon-wrapper i {
+    margin: 10px;
+}
